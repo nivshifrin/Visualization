@@ -39,7 +39,7 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-image_path = r"C:\Users\nivsh\python_project\HW\pict.png"
+image_path = r"pict.png"
 image = Image.open(image_path)
 st.image(image, caption='מיצב ראמ"ה מערכת חינוך ישראל', use_column_width=True)
 
